@@ -1,16 +1,13 @@
-## Hi there 👋
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
+sns.set_style("whitegrid")
 
-<!--
-**GardaAnimalia/GardaAnimalia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#set warning 
+import warnings
+warnings.filterwarnings('ignore')
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+pd.pandas.set_option('display.max_columns', None)
